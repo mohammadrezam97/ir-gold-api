@@ -30,7 +30,7 @@ async def fetch_gold_price():
             resp = await client.get(API_URL, timeout=10)
             if resp.status_code == 200:
                 data = resp.json()
-                g = data["current"]["tgju_gold_irg18"]  # کلید طلای ۱۸ عیار
+                g = data["current"]["geram18"]  # کلید طلای ۱۸ عیار
                 gold_data = {
                     "price": g["p"],
                     "high": g["h"],
