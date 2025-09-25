@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO)
 app = FastAPI(title="Gold 18k Price API")
 
 # آدرس کامل API tgju.org با پارامتر rev
-API_URL = "https://call2.tgju.org/ajax.json?rev=RS5NrMg4wkmtkDbuvwDooeMsRYBvIxmo9zNGhSNJrcYUDUyM0fVQTgrC"
+API_URL = "https://call2.tgju.org/ajax.json?rev=pW3gXxQHLWzPwqWvDn9t2j3OiRV5lX0luzxK7CFciVyxBY0wOIev9c8brsk"
 
 # حافظه موقت برای ذخیره قیمت
 gold_data = {
